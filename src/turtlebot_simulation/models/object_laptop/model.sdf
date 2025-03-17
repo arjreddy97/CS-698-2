@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="object_laptop">
+    <static>true</static>
+    <link name="laptop_link">
+      <visual name="laptop_visual">
+        <geometry>
+          <box>
+            <size>0.3 0.2 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

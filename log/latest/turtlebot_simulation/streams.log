@@ -1,0 +1,32 @@
+[0.054s] Invoking command in '/ros2_ws/build/turtlebot_simulation': /usr/bin/cmake /ros2_ws/src/turtlebot_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot_simulation
+[0.719s] -- The C compiler identification is GNU 13.3.0
+[1.014s] -- The CXX compiler identification is GNU 13.3.0
+[1.074s] -- Detecting C compiler ABI info
+[1.307s] -- Detecting C compiler ABI info - done
+[1.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.335s] -- Detecting C compile features
+[1.337s] -- Detecting C compile features - done
+[1.363s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.597s] -- Detecting CXX compile features
+[1.599s] -- Detecting CXX compile features - done
+[1.663s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.663s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.663s]   has asked CMake to find a package configuration file provided by
+[1.663s]   "ament_cmake", but CMake did not find one.
+[1.664s] 
+[1.664s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.664s]   any of the following names:
+[1.664s] 
+[1.664s]     ament_cmakeConfig.cmake
+[1.664s]     ament_cmake-config.cmake
+[1.665s] 
+[1.665s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.665s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.665s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.665s]   has been installed.
+[1.665s] 
+[1.666s] [0m
+[1.666s] -- Configuring incomplete, errors occurred!
+[1.673s] Invoked command in '/ros2_ws/build/turtlebot_simulation' returned '1': /usr/bin/cmake /ros2_ws/src/turtlebot_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot_simulation

@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/build/turtlebot3-simulation': /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3-simulation
+Invoked command in '/ros2_ws/build/turtlebot3-simulation' returned '1': /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3-simulation

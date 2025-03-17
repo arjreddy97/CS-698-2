@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="book">
+    <static>true</static>
+    <link name="book_link">
+      <visual name="book_visual">
+        <geometry>
+          <box>
+            <size>0.3 0.2 0.05</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

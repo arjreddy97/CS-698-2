@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/src/build/turtlebot3-simulation': /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DCMAKE_INSTALL_PREFIX=/ros2_ws/src/install/turtlebot3-simulation
+Invoked command in '/ros2_ws/src/build/turtlebot3-simulation' returned '1': /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DCMAKE_INSTALL_PREFIX=/ros2_ws/src/install/turtlebot3-simulation

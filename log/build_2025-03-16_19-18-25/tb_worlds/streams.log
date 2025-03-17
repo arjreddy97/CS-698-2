@@ -1,0 +1,21 @@
+[0.031s] Invoking command in '/ros2_ws/build/tb_worlds': /usr/bin/cmake --build /ros2_ws/build/tb_worlds -- -j16 -l16
+[0.204s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.439s] Traceback (most recent call last):
+[0.439s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.439s]     from ament_package.templates import get_environment_hook_template_path
+[0.439s] ModuleNotFoundError: No module named 'ament_package'
+[0.445s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.445s]   execute_process(/usr/bin/python3
+[0.445s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.445s]   /ros2_ws/build/tb_worlds/ament_cmake_package_templates/templates.cmake)
+[0.446s]   returned error code 1
+[0.446s] Call Stack (most recent call first):
+[0.446s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.446s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.447s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.447s]   CMakeLists.txt:9 (find_package)
+[0.447s] 
+[0.447s] [0m
+[0.447s] -- Configuring incomplete, errors occurred!
+[0.458s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.462s] Invoked command in '/ros2_ws/build/tb_worlds' returned '2': /usr/bin/cmake --build /ros2_ws/build/tb_worlds -- -j16 -l16

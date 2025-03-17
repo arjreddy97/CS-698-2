@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="object_bottle">
+    <static>true</static>
+    <link name="bottle_link">
+      <visual name="bottle_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.25</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.2 0.6 0.8 1</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

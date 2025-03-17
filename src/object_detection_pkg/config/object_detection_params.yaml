@@ -1,0 +1,5 @@
+object_detection:
+  model: "fasterrcnn_resnet50_fpn"
+  confidence_threshold: 0.5
+  camera_topic: "/camera/image_raw"
+  use_gpu: True

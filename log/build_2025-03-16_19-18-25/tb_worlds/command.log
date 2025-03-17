@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/build/tb_worlds': /usr/bin/cmake --build /ros2_ws/build/tb_worlds -- -j16 -l16
+Invoked command in '/ros2_ws/build/tb_worlds' returned '2': /usr/bin/cmake --build /ros2_ws/build/tb_worlds -- -j16 -l16

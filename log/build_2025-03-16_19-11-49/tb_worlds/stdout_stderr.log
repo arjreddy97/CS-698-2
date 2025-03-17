@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Up-to-date: /ros2_ws/install/tb_worlds/share/tb_worlds/launch
+-- Up-to-date: /ros2_ws/install/tb_worlds/share/tb_worlds/launch/simulation_launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/ros2_ws/src/turtlebot3_simulation/maps": No such
+  file or directory.
+
+[0m

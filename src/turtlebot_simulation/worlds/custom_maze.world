@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="custom_maze">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Bench 1 with Book -->
+    <include>
+      <uri>model://bench</uri>
+      <pose>0 2 0.15 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://object_book</uri>
+      <pose>0.1 2 0.45 0 0 0</pose>
+    </include>
+
+    <!-- TurtleBot3 -->
+    <include>
+      <uri>model://turtlebot3_burger</uri>
+      <pose>0 0 0.15 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

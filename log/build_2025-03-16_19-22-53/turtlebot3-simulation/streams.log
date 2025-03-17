@@ -1,0 +1,48 @@
+[0.052s] Invoking command in '/ros2_ws/build/turtlebot3-simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3-simulation
+[0.457s] -- The C compiler identification is GNU 13.3.0
+[0.666s] -- The CXX compiler identification is GNU 13.3.0
+[0.713s] -- Detecting C compiler ABI info
+[0.926s] -- Detecting C compiler ABI info - done
+[0.941s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.942s] -- Detecting C compile features
+[0.943s] -- Detecting C compile features - done
+[0.965s] -- Detecting CXX compiler ABI info
+[1.148s] -- Detecting CXX compiler ABI info - done
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.163s] -- Detecting CXX compile features
+[1.164s] -- Detecting CXX compile features - done
+[1.246s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.596s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.991s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.004s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.244s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.306s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.615s] -- Found nav2_minimal_tb3_sim: 1.0.2 (/turtlebot_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake)
+[2.619s] -- Found nav2_minimal_tb4_sim: 1.0.2 (/turtlebot_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/cmake)
+[2.794s] -- Configuring done (2.6s)
+[2.812s] -- Generating done (0.0s)
+[2.817s] -- Build files have been written to: /ros2_ws/build/turtlebot3-simulation
+[2.831s] Invoked command in '/ros2_ws/build/turtlebot3-simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake /ros2_ws/src/turtlebot3_simulation -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3-simulation
+[2.835s] Invoking command in '/ros2_ws/build/turtlebot3-simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/build/turtlebot3-simulation -- -j16 -l16
+[2.922s] Invoked command in '/ros2_ws/build/turtlebot3-simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/build/turtlebot3-simulation -- -j16 -l16
+[2.941s] Invoking command in '/ros2_ws/build/turtlebot3-simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/build/turtlebot3-simulation
+[2.956s] -- Install configuration: ""
+[2.957s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/launch
+[2.968s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/launch/simulation_launch.py
+[2.969s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models
+[2.971s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/object_book
+[2.972s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/object_book/model.config
+[2.973s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/object_book/model.sdf
+[2.973s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/bench
+[2.975s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/bench/model.config
+[2.976s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/models/bench/model.sdf
+[2.977s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/worlds
+[2.978s] -- Installing: /ros2_ws/install/turtlebot3-simulation/share/turtlebot3-simulation/worlds/custom_maze.world
+[2.979s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.980s]   file INSTALL cannot find "/ros2_ws/src/turtlebot3_simulation/urdf": No such
+[2.980s]   file or directory.
+[2.980s] 
+[2.980s] [0m
+[2.982s] Invoked command in '/ros2_ws/build/turtlebot3-simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/turtlebot_ws/install/py_trees_ros_viewer:/turtlebot_ws/install/py_trees_ros:/turtlebot_ws/install/py_trees_js:/turtlebot_ws/install/py_trees:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/build/turtlebot3-simulation
